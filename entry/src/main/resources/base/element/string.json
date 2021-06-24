@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Hello Harmony"
+    },
+    {
+      "name": "mainability_description",
+      "value": "hap sample empty page"
+    },
+    {
+      "name": "secondability_description",
+      "value": "hap sample empty provider"
+    },
+    {
+      "name": "second_ability",
+      "value": "SecondAbility"
+    },
+    {
+      "name": "main_ability_slice01",
+      "value": "MainAbilitySlice01"
+    },
+    {
+      "name": "main_ability_slice02",
+      "value": "MainAbilitySlice02 Click Me"
+    },
+    {
+      "name": "second_ability_slice01",
+      "value": "SecondAbilitySlice01"
+    },
+    {
+      "name": "second_ability_slice02",
+      "value": "SecondAbilitySlice02"
+    },
+    {
+      "name": "next",
+      "value": "NEXT"
+    }
+  ]
+}

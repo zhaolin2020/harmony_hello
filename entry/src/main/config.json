@@ -1,0 +1,59 @@
+{
+  "app": {
+    "bundleName": "ohos.samples.helloworld",
+    "version": {
+      "code": 2000000,
+      "name": "2.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "mainAbility": "ohos.samples.helloworld.MainAbility",
+    "package": "ohos.samples.helloworld",
+    "name": ".MainAbility",
+    "reqCapabilities": [
+      "video_support"
+    ],
+    "deviceType": [
+      "default"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "visible": true,
+        "formsEnabled": false,
+        "name": "ohos.samples.helloworld.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:app_name",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "ohos.samples.helloworld.SecondAbility",
+        "icon": "$media:icon",
+        "description": "$string:secondability_description",
+        "label": "$string:second_ability",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}
